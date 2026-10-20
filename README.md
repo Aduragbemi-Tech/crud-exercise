@@ -21,12 +21,12 @@ Base URL: `http://localhost:3000`
 | GET | `/articles/1` | Get an article by ID |
 | PUT | `/articles/1` | Update an article |
 | PATCH | `/articles/1` | Partially update an article |
-| DELETE | `/articles/1` | Delete an article |
+| DELETE | `/articles/2` | Delete an article |
 
 ## How to Run
 1. Run `npm install`.
-2. Run `node server.js`.
+2. Run `node app.js`.
 3. Test the endpoints using Postman.
 
 ## Note
-My Articles CRUD API uses a JavaScript array to store articles. This allows me to create, view, update, and delete articles while the server is running. Howver, it does not use a database yet.
+My Articles CRUD API uses a JavaScript array to store articles. This allows me to create, view, update, and delete articles while the server is running. However, it does not use a database yet.
